@@ -3,4 +3,4 @@ The purpose of this project is to act as a reference project of how to create yo
 
 Every Thamizha project maintainer is expexted to follow the guidelines specified in this project for creating and maintaining a documentation site of their project.
 
-*Note*: Still in development. Donot refer this until ofiicially announced in the mailing list or thamizha website.
+**Note**: Still in development. Donot refer this until ofiicially announced in the mailing list or thamizha website.
