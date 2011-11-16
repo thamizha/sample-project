@@ -6,5 +6,6 @@ $(document).ready(function(){
     url += "/collaborators";
     $.get(url, function(data){
             $('#collab').append(JSON.stringify(data));
+	    alert('Success');
         });
 });
