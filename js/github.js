@@ -1,3 +1,4 @@
+alert('Script loaded');
    // var project = $('#project').attr('name');
     var baseurl = "https://api.github.com/";
     var url = baseurl + "repos/thamizha/";
