@@ -1,4 +1,3 @@
-$(document).ready(function(){
    // var project = $('#project').attr('name');
     var baseurl = "https://api.github.com/";
     var url = baseurl + "repos/thamizha/";
@@ -8,4 +7,3 @@ $(document).ready(function(){
            // $('#collab').append(JSON.stringify(data));
 	    alert('Success');
         });
-});
