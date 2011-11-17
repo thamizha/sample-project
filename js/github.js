@@ -7,9 +7,10 @@ $(document).ready(function(){
     $.ajax({
 	    dataType: 'jsonp',
 	    url: url,
-	    success: function(data){
-            $('#collab').html(JSON.stringify(data));
-	   alert('Success');
+	    success: function(response){
+		    for (var i in response.data){
+			    $('#collab').append('<p>'+response.data[i].login+'</p>');
+			   }
         }
     });
 });
