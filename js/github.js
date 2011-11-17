@@ -6,9 +6,8 @@ $(document).ready(function(){
     url += "/collaborators";
     $.ajax({
 	    dataType: 'jsonp',
-	    jsonp: '',
 	    url: url,
-	    sucess: function(data){
+	    success: function(data){
             $('#collab').html(JSON.stringify(data));
 	   alert('Success');
         }
