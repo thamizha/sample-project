@@ -4,8 +4,13 @@ $(document).ready(function(){
     var url = baseurl + "repos/thamizha/";
     url += "sample-project";
     url += "/collaborators";
-    $.getJSON(url, function(data){
+    $.ajax({
+	    dataType: 'jsonp',
+	    jsonp: '',
+	    url: url,
+	    sucess: function(data){
             $('#collab').html(JSON.stringify(data));
 	   alert('Success');
-        });
+        }
+    });
 });
